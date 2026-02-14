@@ -123,4 +123,48 @@ font-weight: 600;
     width: 100%;
 }
 
+/* About section - follows Home design pattern */
+.About{
+    min-height: 70vh;
+    background: #081b29;
+    display:flex;
+    align-items: center;
+    padding: 80px 10%;
+}
+.About-content{
+    background: transparent;
+    max-width: 700px;
+}
+.About-content h2{
+    font-size: 44px;
+    font-weight: 700;
+    color: #ededed;
+    margin-bottom: 8px;
+}
+.About-content h3{
+    font-size: 28px;
+    font-weight: 700;
+    color: #00abf0;
+    margin-bottom: 14px;
+}
+.About-content p{
+    font-size: 16px;
+    color: #d6d6d6;
+    margin-bottom: 18px;
+}
+.About-list{
+    display:flex;
+    gap:12px;
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+.About-list li{
+    list-style: none;
+    background: rgba(255,255,255,0.03);
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: #ededed;
+    font-weight: 600;
+}
+
   
